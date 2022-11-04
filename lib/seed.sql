@@ -7,11 +7,3 @@ INSERT INTO bears (id, name, age, sex, color, temperament, alive) VALUES
 (6,"Grinch", 2, "M", "Black", "Grinchy", 1),
 (7,"Wendy", 6, "F", "Blue", "naive", 1),
 (8,null, 20, "M", "black", "aggressive", 0);
-
-def selects_all_female_bears_return_name_and_age
-  "SELECT bears.name, bears.age FROM bears WHERE sex='F';"
-end
-
-def selects_all_bears_names_and_orders_in_alphabetical_order 
-    "SELECT * bears;"
-end
